@@ -1,0 +1,214 @@
+/* Con Float */
+
+/* 
+   NAV
+ */
+.paginasFloat3 {
+    text-align: right;
+    padding: 40px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.paginasFloat3 nav a {
+    margin-left: 30px;
+    color: black;
+}
+
+/* 
+   CONTENEDOR PRINCIPAL
+ */
+.contenedorFloat3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ContenedorGeneralFloat3
+{
+    border: 1px solid black;
+}
+
+
+/* 
+   COLUMNA IZQUIERDA
+ */
+.columnaIzquierda {
+    float: left;
+    width: 20%;
+    margin-left: 0.5%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.columnaIzquierda img {
+    width: 80%;
+    height: 341px;
+    margin-left: 12%;
+    
+}
+.columnaIzquierda p {
+    text-align: justify;
+    border: 1px solid black;
+}
+
+
+
+/* Columna Del Centro */
+
+.columnaCentro {
+    float: left;
+    width: 50%; 
+    margin-left: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.columnaCentro p {
+    text-align: justify;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+
+.columnaCentro iframe {
+    width: 100%;
+    display: block;
+}
+
+/* COLUMNA DERECHA 
+*/
+.columnaDerecha {
+    float: left;
+    width: 20%;
+    margin-left: 6.5%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.columnaDerecha img {
+    width: 80%;
+    height: 341px;
+    margin-left: 12%;
+    
+}
+
+.columnaDerecha p {
+    text-align: justify;
+    border: 1px solid black;
+}
+
+
+/* Con FlexBox */
+
+/* 
+   NAV 
+ */
+.paginasFlex3 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.paginasFlex3 nav a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+/* 
+   CONTENEDOR PRINCIPAL
+ */
+.ContenedorGeneralFlex3 {
+    border: 1px solid black;
+}
+
+.contenedorFlex3 {
+    display: flex;
+}
+
+/* 
+   Columna de la Izquierda
+ */
+.columnaIzquierdaFlex3 {
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 0.5%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.columnaIzquierdaFlex3 img {
+    width: 80%;
+    height: 340px;
+    margin-left: 12%;
+}
+
+.columnaIzquierdaFlex3 p {
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+/* 
+  Columna del Centro
+ */
+.columnaCentroFlex3 {
+    flex: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.columnaCentroFlex3 p {
+    text-align: justify;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.columnaCentroFlex3 iframe {
+    width: 100%;
+    display: block;
+}
+
+/* 
+   Columna de la Derecha
+ */
+.columnaDerechaFlex3 {
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 0.5%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.columnaDerechaFlex3 img {
+    width: 80%;
+    height: 340px;
+    margin-left: 12%;
+}
+
+.columnaDerechaFlex3 p {
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+
+/* Solo separación entre titulos h2 */
+
+h2{
+    margin-top: 40px;
+}

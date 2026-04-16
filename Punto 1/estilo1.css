@@ -1,0 +1,158 @@
+
+/* Con Float */
+
+/* 
+   NAV
+*/
+.paginas {
+    text-align: right;
+    padding: 40px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.paginas nav a {
+    margin-left: 30px;
+    color: black;
+     text-decoration: none;
+}
+
+/* 
+   CONTENEDOR PRINCIPAL
+ */
+.contenedorFloat1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ContenedorGeneralFloat1
+{
+    border: 1px solid black;
+}
+
+/* 
+   COLUMNA IZQUIERDA
+ */
+.LadoIzquierdoFloat1 {
+    float: left;
+    width: 20%;
+    margin-left: 0.5%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.LadoIzquierdoFloat1 img {
+    width: 80%;
+    height: 341px;
+    margin-left: 12%;
+    
+}
+
+.LadoIzquierdoFloat1 .parrafo {
+    
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+/* 
+   COLUMNA DERECHA
+*/
+.LadoDerechoFloat1 {
+    float: left;
+    width: 73%;
+    margin-left: 2%;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.LadoDerechoFloat1 p {
+    text-align: justify;
+}
+
+
+/* Con Flexbox */
+
+/* 
+   NAV 
+ */
+.paginasFlex1 {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 40px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.paginasFlex1 nav a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+/* 
+   CONTENEDOR PRINCIPAL
+ */
+.contenedorFlex1 {
+    display: flex;
+}
+
+.ContenedorGeneralFlex1
+{
+    border: 1px solid black;
+}
+
+/* 
+   COLUMNA IZQUIERDA
+ */
+.LadoIzquierdoFlex1 {
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 0.5%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.LadoIzquierdoFlex1 img {
+    width: 80%;
+    height: 350px;
+    margin-left: 12%;
+}
+
+.LadoIzquierdoFlex1 .parrafoFlex1 {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+/* 
+   COLUMNA DERECHA
+ */
+.LadoDerechoFlex1 {
+    width: 73%;
+    margin-left: 2%;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.LadoDerechoFlex1 p {
+    text-align: justify;
+}
+
+
+/* Solo separación entre titulos h2 */
+h2
+{
+  margin-top: 40px;
+}

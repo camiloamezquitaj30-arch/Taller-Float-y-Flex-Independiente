@@ -1,0 +1,215 @@
+/* Con Float */
+
+/* 
+   NAV 
+*/
+.paginasFloat2 {
+    text-align: right;
+    padding:40px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.paginasFloat2 nav a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+/* 
+   CONTENEDOR PRINCIPAL
+*/
+.contenedorFloat2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ContenedorGeneralFloat2
+{
+    border: 1px solid black;
+}
+
+/* 
+   Bloque Completo Superior
+*/
+.bloqueCompleto {
+    width: 99%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+
+.bloqueCompleto p {
+    text-align: justify;
+   
+}
+
+/* 
+   Columnas Del Medio
+*/
+.columnasPeque::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnasPeque {
+    margin-bottom: 15px;
+    
+}
+
+.colPequeIz {
+    float: left;
+    width: 32%;
+    margin-right: 1.5%;
+    margin-left: 1%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.colPequeCentro {
+    float: left;
+    width: 32%;
+    margin-right: 1.5%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.colPequeDere {
+    float: left;
+    width: 31%;
+    border: 1px solid black;
+    padding: 10px;  
+    box-sizing: border-box;
+}
+
+
+.colPequeIz p, .colPequeCentro p, .colPequeDere p {
+    text-align: justify;
+}
+
+/* 
+   BLOQUE INFERIOR
+    */
+.bloqueInferior {
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: 99%;
+    margin-left: 15px;
+}
+
+.bloqueInferior::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imgInferior {
+    float: left;
+    width: 15%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    min-height: 100px;
+}
+
+.imgInferior img {
+    width: 100%;
+    display: block;
+    
+}
+
+.textoInferior {
+    float: left;  
+    width: 83%;  
+    border: 1px solid black;
+    box-sizing: border-box;
+   
+    
+}
+
+.textoInferior p {
+    text-align: justify;
+    padding: 10px;
+}
+
+
+/* Con Flex */
+
+
+/* Nav */
+.paginasFlex2 {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 40px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.paginasFlex2 nav a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.ContenedorGeneralFlex2
+{
+    border: 1px solid black;
+}
+
+
+/* Bloque Superior */
+.bloqueCompletoFlex {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Columnas del Medio */
+.columnasPequeFlex {
+    display: flex;
+    gap: 15px; 
+    margin-bottom: 15px;
+}
+
+.colPequeIzFlex, .colPequeCentroFlex, .colPequeDereFlex {
+    flex: 1; 
+    border: 1px solid black;
+    padding: 10px;
+   
+}
+
+/* Bloque Inferior */
+.bloqueInferiorFlex {
+    display: flex;
+    gap: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.imgInferioFlexr {
+    flex: 0 0 15%; 
+}
+
+.imgInferioFlexr img {
+    width: 100%;
+    display: block;
+}
+
+.textoInferiorFlex {
+    flex: 1; 
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+/* Solo separación entre titulos h2 */
+
+ h2{
+    margin-top: 40px;
+}
